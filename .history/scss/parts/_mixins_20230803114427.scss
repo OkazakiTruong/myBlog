@@ -1,0 +1,9 @@
+@mixin uderLine($spaceUnder) {
+  &::after {
+    content: "";
+    width: 100px;
+    height: 1px;
+    bottom: -$spaceUnder;
+    background-color: $secondary-color;
+  }
+}

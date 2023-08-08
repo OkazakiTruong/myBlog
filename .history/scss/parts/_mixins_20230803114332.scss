@@ -1,0 +1,6 @@
+@mixin uderLine($spaceUnder) {
+  &::after {
+    content: "";
+    width: 100px;
+  }
+}

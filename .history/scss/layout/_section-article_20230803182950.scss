@@ -1,0 +1,27 @@
+.section-articles {
+  &-container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  &-heading {
+    text-align: center;
+    margin-bottom: 80px;
+    position: relative;
+    @include underLine(10px);
+  }
+  &-item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+    .article-title {
+      font-size: 2rem;
+    }
+    .article-desc {
+      font-size: 1.4rem;
+    }
+    .article-link {
+      padding: 10px;
+    }
+  }
+}

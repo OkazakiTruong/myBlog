@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Article</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/pages/article.css" />
+  </head>
+  <body>
+    <header class="header">
+        <div class="header-container">
+          <div class="header-bar-icon" onclick="openHeaderNav()">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div class="header-avatar">
+            <a href="#">
+              <img src="./img/logo.png" alt="" />
+            </a>
+            <p class="desc">Welcome to my blog :></p>
+          </div>
+            <ul class="header-nav">
+              <div class="header-close-icon" onclick="closeHeaderNav()">
+              <i class="fa-solid fa-xmark"></i>
+              </div>
+              <li class="header-nav-item">
+                <a class="header-nav-link" href="../index.html">Trang chủ</a>
+              </li>
+              <li class="header-nav-item">
+                <a class="header-nav-link header-nav-link--active" href="../artical.html ">Bài viết</a>
+              </li>
+              <li class="header-nav-item">
+                  <a class="header-nav-link" href="#">My Git</a>
+                </li>
+              <li class="header-nav-item">
+                <a class="header-nav-link" href="../about.html">About me</a>
+              </li>
+            </ul>
+            <div class="header-layout" onclick="closeHeaderNav()"></div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="section-articles">
+          <div class="section-articles-container">
+            <h1 class="section-articles-heading">
+              Danh sách bài viết
+            </h1>
+            <div class="section-articles-list">
+              <div class="section-articles-item">
+                <div class="articles-img">
+                  <a href="#">
+                    <img src="./img/article/cndpt.png" alt="" >
+                  </a>
+                </div>
+                <div class="articles-content">
+                  <h2 class="article-title"><a href="#">Học chuyên ngành công nghệ đa phương tiện ra làm gì?</a></h2>
+                  <p class="article-desc">Công nghệ đa phương tiện là ngành ứng dụng công nghệ thông tin vào quá trình thiết kế. Các chuyên ngành Công nghệ đa phương tiện. Ngành Công ...</p>
+                  <a class="article-link" href="">Xem chi tiết</a>
+                </div>
+
+              </div>
+              <div class="section-articles-item">
+                <div class="articles-img">
+                  <a href="#">
+                    <img src="./img/avarta01.png" alt="" >
+                  </a>
+                </div>
+ 
+                <div class="articles-content">
+                  <h2 class="article-title"><a href="#">Toán tử == và === trong javascrip khác nhau như thế nào?</a></h2>
+                  <p class="article-desc">Công nghệ đa phương tiện là ngành ứng dụng công nghệ thông tin vào quá trình thiết kế. Các chuyên ngành Công nghệ đa phương tiện. Ngành Công ...</p>
+                  <a class="article-link" href="">Xem chi tiết</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-avatar-wrapper">
+                <div class="footer-avatar">
+                    <a href="../index.html"><img src="./img/logo.png" alt=""></a>
+                </div>
+                <p class="footer-desc">
+                  Hi! Mình là Trưởng - 2002. <br> Hiện mình đang là sinh viên khoa cntt đại học Mở Hà Nội. 
+                  Đây là blog cá nhân lưu lại quá trình
+                  học front-end  và chia sẻ kiến thức của mình.
+                </p>
+            </div>
+            <ul class="footer-nav">
+                <li class="footer-nav-item"><a href="../index.html" class="footer-nav-link "> Trang chủ </a></li>
+                <li class="footer-nav-item"><a href="#" class="footer-nav-link footer--bigger">Bài viết</a></li>
+                <li class="footer-nav-item"><a href="../about.html" class="footer-nav-link">About me</a></li>
+            </ul>
+            <div class="footer-social-media">
+                <p class="footer--bigger">Contact me:</p>
+                <a href="https://github.com/OkazakiTruong?tab=repositories" class="social-media-item"> <i class="fa-brands fa-github"></i> Github</a>
+                <a href="https://www.facebook.com/buiquang.truong.737/" class="social-media-item"> <i class="fa-brands fa-facebook"></i> Facebook</a>
+                <a href="#" class="social-media-item"> <i class="fa-solid fa-envelope"></i> buiquangtruong1105@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/header.js"></script>
+  </body>
+</html>

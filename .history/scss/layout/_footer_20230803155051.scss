@@ -1,0 +1,18 @@
+.footer {
+  &-container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  &-avatar-wrapper {
+  }
+  &-avatar {
+    img {
+      width: 80px;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+  }
+}

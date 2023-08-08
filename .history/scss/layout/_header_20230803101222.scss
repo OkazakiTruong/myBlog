@@ -1,0 +1,18 @@
+.header {
+  &-container {
+    max-width: 1230px;
+    margin: auto;
+    padding: 0 15px;
+  }
+  &-bar-icon {
+    font-size: 2rem;
+    padding: 10px 0px;
+    color: $text-color;
+  }
+  &-avatar {
+    img {
+      width: 50px;
+      border-radius: 20px;
+    }
+  }
+}
